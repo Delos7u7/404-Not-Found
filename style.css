@@ -1,0 +1,118 @@
+:root{
+    /* Variables de color */
+    --gray: #333;
+    --gray-2: #4F4F4F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 24px;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    line-height: normal;
+    color: var(--gray);
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+.section-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+.section-img-container .img-container{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    background-image: url('./assets/imgs/Scarecrow.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.badnews-container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.badnews-container .content{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.badnews-container h2{
+    font-size: 48px;
+    font-family:'Space Mono', monospace;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.badnews-container p{
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--gray-2);
+}
+
+.class-button-container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.class-button-container .button{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.class-button-container .button p{
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+    width: 220px;
+    height: 50px;
+    background-color: var(--gray);  
+    padding: 15px;
+    padding-left: 40px;
+    color: #FFF;
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+footer h3{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #BDBDBD;
+}
